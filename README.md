@@ -1,4 +1,4 @@
-# CredHire AI: Job Fraud Detection System
+# CrediHire AI: Job Fraud Detection System
 
 [![Python](https://img.shields.io/badge/Built%20With-Python-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -9,7 +9,7 @@
 ---
 
 ## Project Overview
-CredHire AI is a machine learning-based system that detects **fraudulent job postings** and protects job seekers from scams. It analyzes key job listing details and classifies them as either genuine or fraudulent, along with a confidence score.
+CrediHire AI is a machine learning-based system that detects **fraudulent job postings** and protects job seekers from scams. It analyzes key job listing details and classifies them as either genuine or fraudulent, along with a confidence score.
 
 **Live App**: [Click Here](https://cred-hire-ai.streamlit.app/)  
 **API Endpoint**: https://credihireai.onrender.com  
@@ -131,7 +131,7 @@ The Random Forest Classifier outperformed all other models, achieving the highes
 ## Project Structure
 
 ```
-CredHireAI/
+CrediHireAI/
 ├── app.py
 ├── config/
 │   └── page_config.py
