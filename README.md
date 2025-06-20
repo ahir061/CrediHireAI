@@ -9,7 +9,7 @@
 ---
 
 ## Project Overview
-CrediHire AI is a machine learning-based system that detects **fraudulent job postings** and protects job seekers from scams. It analyzes key job listing details and classifies them as either genuine or fraudulent, along with a confidence score.
+CrediHireAI is a production-ready, end-to-end NLP system for detecting fraudulent job postings. It leverages TF-IDF vectorization and ensemble learning (Random Forest, XGBoost) for binary classification of unstructured recruitment data. The solution is deployed with a Streamlit-based front-end and FastAPI backend, offering real-time inference via CSV upload or direct input.
 
 **Live App**: [Click Here](https://cred-hire-ai.streamlit.app/)  
 **API Endpoint**: https://credihireai.onrender.com  
@@ -39,7 +39,7 @@ CrediHire AI is a machine learning-based system that detects **fraudulent job po
 ## Machine Learning Models
 We evaluated multiple classification models to find the best performer:
 
-### Models Tested
+### Models Evaluated
 1. Linear Support Vector Classification
 2. Gradient Boosting
 3. Gaussian Naive Bayes
@@ -47,6 +47,11 @@ We evaluated multiple classification models to find the best performer:
 5. K-Nearest Neighbors (KNN)
 6. Random Forest
 7. XGBoost
+
+### Data Preprocessing:
+
+- Null handling, text normalization, and cleaning
+- Feature engineering using TF-IDF (bigrams, 15k features)
 
 ### Data Balancing
 To address class imbalance in the dataset, we implemented three different sampling techniques:
