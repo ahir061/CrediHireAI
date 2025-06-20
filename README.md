@@ -1,11 +1,5 @@
 # CrediHire AI: Job Fraud Detection System
 
-[![Python](https://img.shields.io/badge/Built%20With-Python-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![FastAPI](https://img.shields.io/badge/API-FastAPI-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
-[![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Deploy-Render](https://img.shields.io/badge/Deployed%20on-Render-46a2f1?logo=render)](https://credihireai.onrender.com)
-
 ---
 
 ## Project Overview
