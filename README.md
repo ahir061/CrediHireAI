@@ -78,7 +78,7 @@ We selected the Random Forest Classifier as our production model due to its supe
 ### Installation Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Swastik-51/CredHire-AI.git
+   git clone https://github.com/ahir061/CredHire-AI.git
    cd CredHire-AI
    ```
 
@@ -94,7 +94,7 @@ We selected the Random Forest Classifier as our production model due to its supe
    ```
 
 4. Download the model files:
-   - Model files are available at: [Google Drive Link]
+   - Model files are available at: [Google Drive Link](https://drive.google.com/drive/folders/1pNHYcHoi9_bqYy3Pgiq8naR89tUbulBJ?usp=sharing)
    - Place `model.pkl` and `vectorizer.pkl` in the `models/` directory
 
 ### Running the Application
